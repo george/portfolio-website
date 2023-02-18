@@ -4,6 +4,7 @@ import Description from './Description';
 import AirplaneGif from './AirplaneGif';
 import Button from './Button';
 import Education from './Education';
+import Skills from './Skills';
 
 const Hero = () => {
     return (
@@ -20,6 +21,7 @@ const Hero = () => {
 
                 <AirplaneGif/>
                 <Education/>
+                <Skills />
             </div>
         </>
     )
