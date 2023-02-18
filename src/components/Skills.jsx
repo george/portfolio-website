@@ -43,7 +43,7 @@ const Skills = () => {
                         <Logo src={'/logos/docker.webp'} alt={'docker'}/>
                     </li>
                     <li>
-                        <Logo src={'/logos/express.png'} alt={'express'} width={121}/>
+                        <Logo src={'/logos/express.png'} alt={'express'} width={140}/>
                     </li>
                     <li>
                         <Logo src={'/logos/flask.png'} alt={'flask'}/>
