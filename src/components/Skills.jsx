@@ -55,7 +55,7 @@ const Skills = () => {
                         <Logo src={'/logos/mysql.png'} alt={'mysql'}/>
                     </li>
                     <li>
-                        <Logo src={'/logos/mongodb.png'} alt={'mongodb'} width={156}/>
+                        <Logo src={'/logos/mongodb.png'} alt={'mongodb'} width={164}/>
                     </li>
                 </ul>
             </span>

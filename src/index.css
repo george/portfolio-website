@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
 body {
   margin: 0;
@@ -48,6 +48,8 @@ body {
 }
 
 .description {
+  font-family: 'Open Sans', sans-serif;
+
   display: inline-block;
   font-size: 3vh;
   font-weight: lighter;
