@@ -1,9 +1,12 @@
 import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+
 import './index.css'
 
 const App = () => {
   return (
-      <div className="container">
+      <div className='container'>
+          <Navbar/>
           <Hero/>
       </div>
   );
