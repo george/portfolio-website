@@ -173,6 +173,7 @@ button a:visited {
 .technology-list {
   list-style-type: none;
   overflow: hidden;
+  padding-left: 0;
 }
 
 .technology-list li {
