@@ -54,7 +54,7 @@ body {
   font-size: 3vh;
   font-weight: lighter;
 
-  max-width: 650px;
+  max-width: max(650px, 35%);
 }
 
 .airplane {
@@ -90,7 +90,7 @@ nav {
 }
 
 .nav-link a:link {
-  color: rgb(255, 255, 255, .75);
+  color: rgba(255, 255, 255, .75);
   font-size: 1.3vw;
   font-weight: bold;
 }
@@ -149,6 +149,10 @@ button:hover {
 
 button:hover a:link {
   color: black;
+}
+
+button a:visited {
+  color: white;
 }
 
 .padding {
