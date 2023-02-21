@@ -7,9 +7,9 @@ const TextTyper = () => {
             500,
             'A passionate software engineer from Houston, Texas',
             1000,
-            'An experienced developer, working with Python, JavaScript, Java, and C++.',
+            'An experienced amd versatile developer, working with Python, JavaScript, Java, and C++.',
             1000,
-            'An avid learner of all things computer science related',
+            'An avid learner of anything computer related',
             1000
         ]} repeat={Infinity} style={{ fontSize: '1.5em' }}>
         </TypeAnimation>

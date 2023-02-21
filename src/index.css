@@ -114,47 +114,14 @@ nav {
   }
 }
 
-.center {
-  display: flex;
-
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-button {
-  height: 40px;
-  background-color: rgb(85,57,204);
-
-  font-weight: bolder;
-  font-size: 1rem;
-
-  border: 8px solid rgb(85,57,204);
-  border-radius: 8px;
-  box-shadow: 0 0 15px 1px rgb(85,57,204);
+.show-bullets {
+  list-style-type: disc;
 }
-
-button a:link {
-  color: white;
-}
-
-button:hover {
-  background-color: white;
-
-  border: 8px solid white;
-  border-radius: 8px;
-
-  transition: all .5s ease;
-}
-
-button:hover a:link {
-  color: black;
-}
-
-button a:visited {
-  color: white;
-}
-
 .padding {
   padding-bottom: 5%;
 }
@@ -171,12 +138,34 @@ button a:visited {
 }
 
 .technology-list {
-  list-style-type: none;
   overflow: hidden;
-  padding-left: 0;
 }
 
 .technology-list li {
   float: left;
   margin-right: 10px;
+}
+
+.experience-card {
+  position: relative;
+  background-color: #5ff47c;
+  box-shadow: #5ff47c 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.experience-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border-radius: 10px 10px 0px 0px;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
