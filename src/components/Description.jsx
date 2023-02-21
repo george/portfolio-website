@@ -1,10 +1,10 @@
 import React from 'react';
+import TextTyper from "./TextTyper";
 
 const Description = () => {
     return (
         <p className={"description"}>
-            A passionate and experienced software engineer from Houston, Texas,
-            developing with Python, JavaScript, Java, and C++.
+            <TextTyper />
         </p>
     )
 }
