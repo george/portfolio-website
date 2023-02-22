@@ -122,10 +122,6 @@ ul {
   padding-left: 0;
 }
 
-img:hover {
-  cursor: pointer;
-}
-
 .show-bullets {
   list-style-type: disc;
 }
