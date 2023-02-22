@@ -3,7 +3,7 @@ My portfolio website, made using React. This website is currently live on https:
 
 ### Installation
 
-Clone the repository, then execute `npm install`. You can run the project by executing `npm run start`'.
+Clone the repository, then execute `npm install`. You can run the project by executing `npm run start`.
 
 ### Deployment
 
