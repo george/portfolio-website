@@ -75,11 +75,14 @@ a {
 
 nav {
   display: flex;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
+  top: 0;
 
   justify-content: space-around;
-
   min-height: 8vh;
+
+  background-color: rgba(9, 12, 18);
 }
 
 .nav-links {
