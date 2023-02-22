@@ -4,9 +4,9 @@ import ExperienceCard from "../card/ExperienceCard";
 const Experiences = () => {
     return (
         <>
-            <h1 className={'title'}>
-                Experiences
-            </h1>
+            <div id='experiences' className={'title'}>
+                <h2>Experiences</h2>
+            </div>
 
             <ExperienceCard companyName={'Senior Studios, AB'} color={'#0498f2'} companyImage={'/logos/senior-studios.webp'}
                             dates={'February, 2020 - February, 2021'} role={'Freelance Software Engineer'} description={
@@ -24,7 +24,7 @@ const Experiences = () => {
                 ]
             }/>
             <ExperienceCard companyName={'Hostile'} color={'#1563CB'} companyImage={'/logos/hostile.ico'}
-                            dates={'April 2022 - Current'} role={'Software Engineer & Project Manager'} description={
+                            dates={'April, 2022 - Present'} role={'Software Engineer & Project Manager'} description={
                 [
                     'Wrote, documented, and maintained the backend for a powerful OSINT website using Flask, MongoDB, and Nginx',
                     'Helped develop and maintain a React based frontend',

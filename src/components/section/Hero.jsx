@@ -6,6 +6,7 @@ import Education from './Education';
 import Skills from './Skills';
 import WhatIDo from './WhatIDo';
 import Experiences from './Experiences'
+import Contact from "./Contact";
 
 const Hero = () => {
     return (
@@ -20,6 +21,7 @@ const Hero = () => {
                 <WhatIDo />
 
                 <Experiences/>
+                <Contact />
             </div>
         </>
     )

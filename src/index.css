@@ -56,6 +56,11 @@ body {
   max-width: max(650px, 35%);
 }
 
+.description a {
+  color: inherit;
+  font-weight: bold;
+}
+
 .airplane {
   float: right;
 
