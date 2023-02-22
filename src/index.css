@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 body {
   margin: 0;
@@ -10,7 +11,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
   color: #fff;
   background-color: rgb(18, 24, 36);
@@ -48,8 +49,6 @@ body {
 }
 
 .description {
-  font-family: 'Open Sans', sans-serif;
-
   display: inline-block;
   font-size: 2vh;
   font-weight: lighter;
@@ -122,6 +121,7 @@ ul {
 .show-bullets {
   list-style-type: disc;
 }
+
 .padding {
   padding-bottom: 5%;
 }
@@ -146,26 +146,84 @@ ul {
   margin-right: 10px;
 }
 
-.experience-card {
-  position: relative;
-  background-color: #5ff47c;
-  box-shadow: #5ff47c 0px 10px 30px -15px;
+.card {
+  display: inline-block;
+
+  border-style: solid;
+  border-width: 1px;
   border-radius: 10px;
-  border: 1px solid gray;
+
+  border-color: rgb(100, 100, 100);
+
+  width: 30%;
+
+  margin-right: 2%;
+  margin-bottom: 5%;
 }
 
-.experience-banner {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-  border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  height: 11rem;
+@media screen and (max-width: 850px) {
+  .card {
+    display: inline-block;
+    width: 95%;
+  }
+}
+
+.card-title {
   display: flex;
-  align-items: flex-end;
   justify-content: center;
+
+  font-weight: bolder;
+  margin-top: 5%;
+
+  font-size: 1.8rem;
+}
+
+.card-image {
+  object-fit: cover;
+  top: 7rem;
+
+  width: 8rem;
+  height: 8rem;
+
+  margin-top: 5%;
+  margin-left: calc(50% - 4rem);
+  margin-bottom: 2%;
+
+  border-radius: 50%;
+
+  box-shadow: 0 0.5rem 0.5rem black;
+}
+
+.card-bottom {
+  margin-top: -10%;
+}
+
+.card-subtext {
+  padding-top: 10%;
+  text-align: center;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.card-dates {
+  padding-top: 3%;
+  text-align: center;
+
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card-description {
+  text-align: center;
+  font-size: 1.2rem;
+
+  margin-bottom: -3%;
+
+  border-bottom: 1px solid rgb(100, 100, 100);
+  border-left: 1px solid rgb(100, 100, 100);
+  border-right: 1px solid rgb(100, 100, 100);
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
