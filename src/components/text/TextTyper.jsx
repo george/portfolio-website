@@ -11,7 +11,7 @@ const TextTyper = () => {
             1000,
             'An avid learner of anything computer related',
             1000
-        ]} repeat={Infinity} style={{ fontSize: '1.5em' }}>
+        ]} className={'text-typer'} repeat={Infinity} style={{ fontSize: '1.5em' }}>
         </TypeAnimation>
     )
 }
