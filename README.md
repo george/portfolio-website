@@ -1,6 +1,6 @@
 # Portfolio Website
-My portfolio website, made using React
- 
+My portfolio website, made using React. This website is currently live on https://george.ong/.
+
 ### Installation
 
 Clone the repository, then execute `npm install`. You can run the project by executing `npm run start`'.
