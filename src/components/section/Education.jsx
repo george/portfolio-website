@@ -8,8 +8,8 @@ const Education = () => {
             </div>
 
             <span className={'description'}>
-                I am currently enrolled in a B.S. program majoring in Software Development
-                at Western Governors' University, which I began at the age of 17.
+                I am currently enrolled in a B.S. program majoring in Software Development,
+                which I began at the age of 17.
             </span>
         </div>
     )
