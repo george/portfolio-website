@@ -8,9 +8,9 @@ const Contact = () => {
             </div>
 
             <span className={'description'}>
-                The best way to contact me is via <a href={'mailto:george@george.ong'}>email</a>, however I
-                can be reached via <a href={'https://t.me/gardening_tool'}>Telegram</a>, which is where I
-                reply fastest.
+                The easiest way to contact me is via <a href={'mailto:george@george.ong'}>email</a>, however I
+                can also be reached via <a href={'https://t.me/gardening_tool'}>Telegram</a>, which is where I
+                usually reply fastest.
             </span>
         </div>
     )
