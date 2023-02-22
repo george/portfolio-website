@@ -6,7 +6,8 @@ import Education from './Education';
 import Skills from './Skills';
 import WhatIDo from './WhatIDo';
 import Experiences from './Experiences'
-import Contact from "./Contact";
+import Contact from './Contact';
+import Profiles from './Profiles';
 
 const Hero = () => {
     return (
@@ -19,6 +20,7 @@ const Hero = () => {
                 <Education/>
                 <Skills />
                 <WhatIDo />
+                <Profiles />
 
                 <Experiences/>
                 <Contact />
