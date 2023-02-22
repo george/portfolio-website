@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './Logo';
+import Logo from '../media/Logo';
 
 const Skills = () => {
     return (
@@ -19,19 +19,19 @@ const Skills = () => {
                         <Logo src={'/logos/python.png'} alt={'python'}/>
                     </li>
                     <li>
-                        <Logo src={'/logos/javascript.png'} alt={'javascript'}/>
-                    </li>
-                    <li>
                         <Logo src={'/logos/cplusplus.svg'} alt={'cplusplus'}/>
                     </li>
                     <li>
-                        <Logo src={'/logos/nodejs.png'} alt={'nodejs'} width={128}/>
+                        <Logo src={'/logos/javascript.png'} alt={'javascript'}/>
+                    </li>
+                    <li>
+                        <Logo src={'/logos/html.png'} alt={'html'}/>
                     </li>
                     <li>
                         <Logo src={'/logos/css.png'} alt={'css'}/>
                     </li>
                     <li>
-                        <Logo src={'/logos/html.png'} alt={'html'}/>
+                        <Logo src={'/logos/nodejs.png'} alt={'nodejs'} width={128}/>
                     </li>
                     <li>
                         <Logo src={'/logos/centos.png'} alt={'centos'}/>
