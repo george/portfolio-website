@@ -1,4 +1,5 @@
 import React from 'react';
+import './SocialMedia.scss';
 
 const SocialMedia = ({ url, path, platformName, backgroundColor }) => {
     return (

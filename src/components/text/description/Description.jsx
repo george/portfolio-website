@@ -1,9 +1,11 @@
 import React from 'react';
-import TextTyper from "./TextTyper";
+import TextTyper from '../texttyper/TextTyper';
+
+import './Description.scss';
 
 const Description = () => {
     return (
-        <p className={"description"}>
+        <p className={'description'}>
             <TextTyper />
         </p>
     )

@@ -1,4 +1,5 @@
 import React from 'react';
+import './ExperienceCard.scss';
 
 const ExperienceCard = ({ companyName, companyImage, role, color, dates, description}) => {
     const ConvertDescriptionToBullets = (contents) => {

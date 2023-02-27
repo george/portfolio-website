@@ -1,5 +1,7 @@
 import React from 'react';
-import Logo from '../media/Logo';
+import Logo from '../../media/logo/Logo';
+
+import './Skills.scss';
 
 const Skills = () => {
     return (

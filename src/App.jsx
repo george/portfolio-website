@@ -1,11 +1,11 @@
-import Hero from './components/section/Hero';
+import Hero from './components/section/hero/Hero';
 import Navbar from './components/nav/Navbar';
 
 import './index.css'
 
 const App = () => {
   return (
-      <div className='container'>
+      <div className={'container'}>
           <Navbar/>
           <Hero/>
       </div>

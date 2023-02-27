@@ -1,0 +1,12 @@
+.description {
+  display: inline-block;
+  font-size: 2vh;
+  font-weight: lighter;
+
+  max-width: max(650px, 35%);
+}
+
+.description a {
+  color: inherit;
+  font-weight: bold;
+}

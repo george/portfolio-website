@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialMedia from "../media/SocialMedia";
+import SocialMedia from '../../media/socialmedia/SocialMedia';
 
 const Profiles = () => {
     return (

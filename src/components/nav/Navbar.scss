@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+
+  justify-content: space-around;
+  min-height: 8vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-around;
+  align-items: center;
+
+  width: 50%;
+}
+
+.nav-link a:link {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.nav-link a:hover {
+  color: rgba(255, 255, 255, 1);
+  transition: ease 0.3s;
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    display: none;
+  }
+}

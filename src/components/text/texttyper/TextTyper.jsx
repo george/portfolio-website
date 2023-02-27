@@ -1,6 +1,8 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
+import './TextTyper.scss';
+
 const TextTyper = () => {
     return (
         <TypeAnimation sequence={[
