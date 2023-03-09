@@ -11,7 +11,7 @@ const Profiles = () => {
             <SocialMedia path={'/logos/chess.com.png'} backgroundColor={'#64943c'}
                          platformName={'chess.com'} url={'https://chess.com/member/Glove'}/>
             <SocialMedia path={'/logos/github.png'} backgroundColor={'#ffffff'}
-                         platformName={'chess.com'} url={'https://github.com/Glove-old'}/>
+                         platformName={'chess.com'} url={'https://github.com/george'}/>
             <SocialMedia path={'/logos/telegram.png'} backgroundColor={'#2cacdc'}
                          platformName={'telegram'} url={'https://t.me/Gardening_Tool'}/>
         </div>
