@@ -14,7 +14,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 
   color: #fff;
-  background-color: rgb(18, 24, 36);
+
+  background: linear-gradient(45deg,transparent 14%, #1a1a1a 15%, #1a1a1a 20%, transparent 21%, transparent 79%, #1a1a1a  80%, #1a1a1a 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #1a1a1a 15%, #1a1a1a 20%, transparent 21%, transparent 79%, #1a1a1a  80%, #1a1a1a 85%, transparent 86%), radial-gradient(transparent 14%, #1a1a1a 15%, #1a1a1a 25%, transparent 26%);
+  background-size: 3em 3em;
+  background-color: #000000;
 }
 
 a {
@@ -24,4 +27,8 @@ a {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.left-margin {
+  margin-left: 5%;
 }

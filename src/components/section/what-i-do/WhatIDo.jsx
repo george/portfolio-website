@@ -1,4 +1,5 @@
 import React from 'react';
+import Technologies from "../technologies/Technologies";
 
 const WhatIDo = () => {
     return (
@@ -14,6 +15,8 @@ const WhatIDo = () => {
                     <li>⚡ Design powerful, production ready systems</li>
                 </ul>
             </span>
+
+            <Technologies/>
         </div>
     )
 }

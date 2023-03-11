@@ -1,3 +1,18 @@
-.left-margin {
-  margin-left: 5%;
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+.hero-background {
+  text-align: center;
+  font-weight: bolder;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  width: 100%;
+
+  background: linear-gradient(45deg,#080707 20%, transparent 20%), linear-gradient(135deg, transparent 80%, #080707 80%), radial-gradient(#080707 20% , transparent 21%);
+  background-size: 1em 1em;
+  background-color: #070707;
+  opacity: 1
 }

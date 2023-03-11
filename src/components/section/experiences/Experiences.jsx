@@ -8,11 +8,11 @@ const Experiences = () => {
                 <h2>Experiences</h2>
             </div>
 
-            <ExperienceCard companyName={'Senior Studios, AB'} color={'#0498f2'} companyImage={'/logos/senior-studios.webp'}
+            <ExperienceCard companyName={'Senior Studios, AB'} color={'#048cde'} companyImage={'/logos/senior-studios.webp'}
                             dates={'February, 2020 - February, 2021'} role={'Freelance Software Engineer'} description={
                 [
                     'Developed a wide variety of time-sensitive projects for a broad and diverse customer-base, primarily ' +
-                    'using Java and the Spigot API',
+                    'using Java',
                     'Demonstrated strong time and self management skills through freelance development work'
                 ]
             }/>
@@ -26,10 +26,9 @@ const Experiences = () => {
             <ExperienceCard companyName={'Hostile'} color={'#1563CB'} companyImage={'/logos/hostile.ico'}
                             dates={'April, 2022 - Present'} role={'Software Engineer & Project Manager'} description={
                 [
-                    'Wrote, documented, and maintained the backend for a powerful OSINT website using Flask, MongoDB, and Nginx',
+                    'Led development for the backend for a powerful OSINT website using Flask, MongoDB, and Nginx',
                     'Helped develop and maintain a React based frontend',
-                    'Created powerful OSINT tools utilizing web scraping',
-                    'Developed internal analytical and administrative tools'
+                    'Created powerful OSINT tools utilizing web scraping'
                 ]
             }/>
         </>
